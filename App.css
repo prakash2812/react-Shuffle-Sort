@@ -1,0 +1,18 @@
+.blocks {
+  width: 200px;
+  min-height: 200px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.block-container {
+  width: 610px;
+  height: 610px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
